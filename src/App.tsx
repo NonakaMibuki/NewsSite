@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@chakra-ui/react";
+import { Tabs, TabList, Tab, TabPanels, TabPanel, Center, Box } from "@chakra-ui/react";
 import { HackerNewsAPI } from "./components/HackerNews";
 import { CategoryType } from "./types";
 
@@ -11,7 +11,8 @@ function App() {
     <>
       <h1>NewsSite</h1>
 
-      <Tabs isFitted variant='enclosed' mt={50} minW={1200} mx={120}>
+    <Box>
+      <Tabs isFitted variant='enclosed' minW="1024" m="0 auto" mt={50}>
         <TabList>
           <Tab onClick={() => setTab(CategoryType.Top)}>Top</Tab>
           <Tab onClick={() => setTab(CategoryType.New)}>News</Tab>
@@ -29,6 +30,7 @@ function App() {
           </TabPanel>
         </TabPanels>
       </Tabs>
+      </Box>
     </>
   );
 }

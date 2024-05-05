@@ -29,6 +29,7 @@ time, mark, audio, video {
 
 body {
     line-height:1;
+    margin: 0;
 }
 
 article,aside,details,figcaption,figure,
@@ -107,4 +108,9 @@ h1 {
   color: #FFF;
   margin: 0;
   width: 100%;
+}
+
+.tab__container {
+    width: 100%;
+    text-align: center;
 }
