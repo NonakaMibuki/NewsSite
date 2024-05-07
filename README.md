@@ -1,3 +1,13 @@
+インストールしたもの
+
+1 React + TypeScript + Vite
+
+2 chakura ui
+  - ターミナル入力
+  npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
