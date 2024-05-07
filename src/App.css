@@ -102,6 +102,10 @@ input, select {
     vertical-align:middle;
 }
 
+body {
+    display: block;
+}
+
 h1 {
   padding: 15px;
   background-color: #333;
@@ -113,4 +117,8 @@ h1 {
 .tab__container {
     width: 100%;
     text-align: center;
+}
+
+#root {
+    max-width: 100%;
 }
